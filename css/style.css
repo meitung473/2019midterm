@@ -1,0 +1,53 @@
+*
+{
+  padding:0px;
+  margin:0px;
+  box-sizing:border-box;
+}
+.box
+{
+  position:relative;
+  height:50px;
+  width:50px;
+  top:100px;
+  left:100px;
+  background:#f88;
+  animation-name:boxmove;
+  animation-duration:4s;
+  animation-iteration-count:infinite;
+  animation-direction:normal;
+}
+@keyframes boxmove
+{
+  0%
+  {
+    left:100px;
+  }
+  25%
+  {
+    left:300px;
+    top:100px;
+    background:#FF55;
+
+  }
+  50%
+  {
+    top:300px;
+    left:300px;
+    background:#12F;
+    
+  }
+  
+  75%
+  {
+    top:300px;
+    left:100px;
+    background:#222;
+}
+  100%
+  {
+    top:100px;
+    left:100px;
+    background:#388;
+  }
+}
